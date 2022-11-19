@@ -3,5 +3,5 @@
 - name: start the tomcat services
   shell: nohup /usr/local/bin/tomcatup
 
-- name: restart tomcat
+- name: restart tomcat services
   shell: /user/local/bin/tomcatdown; nohup /usr/local/bin/tomcatup
